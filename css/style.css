@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 @import "reset.css";
-@import "variables.css";
+@import "css/variables.css";
 /* Components */
 @import "components/status-bar.css";
-
+@import "components/screen-header.css";
+@import "components/user.css";
 /* screen */
 @import "screen/login.css";
+
 body {
   font-family: "Concert One", cursive;
 }

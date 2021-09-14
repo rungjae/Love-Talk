@@ -1,0 +1,19 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 15px;
+}
+
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.screen-header__icon {
+  display: flex;
+}
+
+.screen-header__icon span {
+  margin-left: 10px;
+}

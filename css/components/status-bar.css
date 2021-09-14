@@ -24,7 +24,11 @@
 
 .status_bar_icons:last-child {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
   margin-right: 13px;
+}
+
+.status_bar_icons:last-child span {
+  margin: 0 5px;
 }
