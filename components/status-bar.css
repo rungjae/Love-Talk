@@ -1,8 +1,30 @@
-.status-bar {
+.status_bar {
   display: flex;
   justify-content: center;
   padding: 5px 3px;
   position: fixed;
   top: 0px;
   width: 100%;
+  align-items: center;
+}
+
+.status_bar_icons {
+  width: 33%;
+  display: flex;
+}
+
+.status_bar_icons:first-child {
+  display: flex;
+}
+
+.status_bar_icons:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status_bar_icons:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 13px;
 }
