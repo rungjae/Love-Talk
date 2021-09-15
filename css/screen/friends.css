@@ -1,0 +1,19 @@
+.friends-screen {
+  margin: 0 20px;
+}
+.friends-screen__list,
+.friends-screen__birth {
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.friends-screen__list__title,
+.friends-screen__birth__title {
+  margin: 10px 0;
+}
+.friends-screen__list__icon,
+.friends-screen__birth__icon {
+  margin: 10px 0;
+}
