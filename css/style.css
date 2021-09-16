@@ -15,6 +15,7 @@
 @import "screen/search-topic.css";
 @import "screen/shop.css";
 @import "screen/product.css";
+@import "screen/more.css";
 
 body {
   font-family: "Concert One", cursive;

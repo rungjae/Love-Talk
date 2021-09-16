@@ -1,0 +1,25 @@
+.more-screen {
+  display: flex;
+  width: 100%;
+}
+.more-lovepay {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  background-color: pink;
+}
+.more-lovepay__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+.more-lovepay__elem {
+  display: flex;
+  align-items: center;
+}
+.more-lovepay__elem i {
+  margin: 0 5px;
+}
