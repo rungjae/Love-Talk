@@ -1,5 +1,6 @@
 .login_body {
   background-color: #e2737a;
+  overflow: auto;
 }
 
 @keyframes jumping {

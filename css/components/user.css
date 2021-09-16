@@ -7,6 +7,11 @@
 .user-component__column {
   display: flex;
   align-items: center;
+  justify-content: end;
+}
+.user-component__column:last-child {
+  flex-direction: column;
+  align-items: end;
 }
 .user-component__avatar {
   width: 70px;
@@ -19,11 +24,17 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__column__music {
-  display: flex;
-  justify-content: end;
-}
-
 .user-component__musictitle {
   margin: 0 5px;
+  font-size: smaller;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+}
+.user-component__time {
+  font-size: 12px;
+  margin-bottom: 10px;
+  opacity: 0.7;
 }

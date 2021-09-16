@@ -1,0 +1,29 @@
+.search-screen {
+  margin: 0 50px;
+}
+
+.search-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.search-block__input {
+  outline: none;
+  border: 2px solid black;
+  border-right: none;
+}
+.search-icon i {
+  display: flex;
+  border: 2px solid black;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-block input {
+  height: 40px;
+  width: 250px;
+}

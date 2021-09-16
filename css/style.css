@@ -6,9 +6,15 @@
 @import "components/screen-header.css";
 @import "components/user.css";
 @import "components/nav-bar.css";
+@import "components/badge.css";
+
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/search.css";
+@import "screen/search-topic.css";
+@import "screen/shop.css";
+@import "screen/product.css";
 
 body {
   font-family: "Concert One", cursive;

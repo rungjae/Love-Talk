@@ -1,0 +1,15 @@
+.search-topic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.search-topic__elem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.search-topic__title {
+  margin-top: 15px;
+}
