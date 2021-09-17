@@ -1,0 +1,15 @@
+.more-topic {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.more-topic__elem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.more-topic__title {
+  margin-top: 15px;
+}

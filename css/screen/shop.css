@@ -1,3 +1,9 @@
+.shop_body {
+  background-color: #e2737a;
+  overflow: auto;
+  height: 200vh;
+}
+
 .shop-screen {
   margin: 0 30px;
 }
